@@ -1,0 +1,34 @@
+{
+  "name": "espeasy-rules-highlighter",
+  "displayName": "ESPEasy Rules Highlighter",
+  "description": "Syntax highlighting for ESPEasy rules files",
+  "version": "0.1.0",
+  "publisher": "kakha13",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "espeasy-rules",
+        "aliases": ["ESPEasy Rules", "espeasy-rules"],
+        "extensions": [".txt"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "espeasy-rules",
+        "scopeName": "source.espeasy-rules",
+        "path": "./syntaxes/espeasy-rules.tmLanguage.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kakha13/espeasy-rules-highlighter"
+  }
+}

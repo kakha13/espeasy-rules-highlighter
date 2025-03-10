@@ -2,8 +2,9 @@
   "name": "espeasy-rules-highlighter",
   "displayName": "ESPEasy Rules Highlighter",
   "description": "Syntax highlighting for ESPEasy rules files",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "kakha13",
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.60.0"
   },

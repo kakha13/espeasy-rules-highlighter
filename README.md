@@ -1,6 +1,6 @@
 # ESPEasy Rules Highlighter
 
-![ESPEasy Logo](images/logo.png)
+![ESPEasy Logo](logo.png)
 
 This Visual Studio Code extension provides syntax highlighting for ESPEasy rules files.
 
